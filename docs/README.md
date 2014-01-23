@@ -101,7 +101,7 @@ Tools (Nut and Oak)
 * Code Climate (JavaScript, Ruby)
 * SonarQube (Java and 25 more languages)
 * JavaNCSS (Java)
-* CCM ( (*.js, *.cs, *.ts, *.c, *.cpp, *.h, *.hpp))
+* CCM (*.js, *.cs, *.ts, *.c, *.cpp, *.h, *.hpp)
 
 
 Summary
