@@ -18,7 +18,8 @@ Introduction
 Quality Management (Thai)
 -------------------------
 
-> "A software project is only as good as its QA workflow." —Esprima Unit Test Page
+> "A software project is only as good as its QA workflow."
+> —[Esprima Unit Test Page](http://esprima.org/test/index.html).
 
 * Why do we need to manage source code quality?
     * [Software Rots](http://www.agile-process.org/change.html)
@@ -37,6 +38,7 @@ Quality Management (Thai)
 > [Y]ou can not effectively increase software quality
 > at the end of the project by testing and fixing bugs.
 > It remains low quality but with fewer bugs.
+> —Don Wells, [Surprise! Software rots!](http://www.agile-process.org/change.html), 2009.
 
 
 * So we need to keep the quality of the source code high.
