@@ -76,6 +76,15 @@ Code Coverage
 13. Loop coverage - Has every possible loop been executed zero times, once, and more than once?
 14. Multiple condition coverage - This criterion requires that all combinations of conditions inside each decision are tested
 
+Sources
+- http://en.wikipedia.org/wiki/Code_coverage
+- http://pjcj.net/testing_and_code_coverage/paper.html
+- http://xdebug.org/docs/code_coverage
+- http://stackoverflow.com/questions/195008/what-is-code-coverage-and-how-do-you-measure-it
+- http://testbench.in/TS_11_TYPES_OF_CODE_COVERAGE.html
+- http://www.atollic.com/index.php/trueanalyzer/types-of-code-coverage-analysis
+- http://grosser.it/2008/04/04/whats-my-coverage-c0-c1-c2-c3-path-coverage/
+
 
 ### Demonstration (ArmSE)
 
