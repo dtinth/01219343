@@ -61,20 +61,20 @@ Code Coverage
 * Why do we need code coverage
    * A program with high code coverage has been more thoroughly tested and has a lower chance of containing software bugs than a program with low code coverage
 * Types of code coverage (C0, C1, C2, C3)
-1. Function coverage - Has each function (or subroutine) in the program been called?
-2. Statement coverage - Has each statement in the program been executed?
-3. Branch coverage - Has each branch of each control structure (such as in if and case statements) been executed? For example, given an if statement, have both the true and false branches been executed? Another way of saying this is, has every edge in the program been executed?
-4. Decision coverage - Has every point of entry and exit in the program been invoked at least once, and has every decision in the program taken on all possible outcomes at least once? (where a decision is a Boolean expression composed of conditions and zero or more Boolean operators)? This definition is not the same as branch coverage,[3] however, some do use the term decision coverage as a synonym for branch coverage.[4]
-5. Condition coverage (or predicate coverage) - Has each Boolean sub-expression evaluated both to true and false? This does not necessarily imply decision coverage.
-6. Modified condition/decision coverage (MC/DC) - Have both decision and condition coverage been satisfied?
-7. State coverage - Has each state in a finite-state machine been reached and explored?
-8. Parameter Value Coverage - In a method taking parameters, have all the common values for such parameters been considered?
-9. Linear Code Sequence and Jump (LCSAJ) coverage - has every LCSAJ been executed?
-10. JJ-Path coverage - have all jump to jump paths (aka LCSAJs) been executed?
-11. Path coverage - Has every possible route through a given part of the code been executed?
-12. Entry/exit coverage - Has every possible call and return of the function been executed?
-13. Loop coverage - Has every possible loop been executed zero times, once, and more than once?
-14. Multiple condition coverage - This criterion requires that all combinations of conditions inside each decision are tested
+   * Function coverage - Has each function (or subroutine) in the program been called?
+   * Statement coverage - Has each statement in the program been executed?
+   * Branch coverage - Has each branch of each control structure (such as in if and case statements) been executed? For example, given an if statement, have both the true and false branches been executed? Another way of saying this is, has every edge in the program been executed?
+   * Decision coverage - Has every point of entry and exit in the program been invoked at least once, and has every decision in the program taken on all possible outcomes at least once? (where a decision is a Boolean expression composed of conditions and zero or more Boolean operators)? This definition is not the same as branch coverage,[3] however, some do use the term decision coverage as a synonym for branch coverage.[4]
+   * Condition coverage (or predicate coverage) - Has each Boolean sub-expression evaluated both to true and false? This does not necessarily imply decision coverage.
+   * Modified condition/decision coverage (MC/DC) - Have both decision and condition coverage been satisfied?
+   * State coverage - Has each state in a finite-state machine been reached and explored?
+   * Parameter Value Coverage - In a method taking parameters, have all the common values for such parameters been considered?
+   * Linear Code Sequence and Jump (LCSAJ) coverage - has every LCSAJ been executed?
+   * JJ-Path coverage - have all jump to jump paths (aka LCSAJs) been executed?
+   * Path coverage - Has every possible route through a given part of the code been executed?
+   * Entry/exit coverage - Has every possible call and return of the function been executed?
+   * Loop coverage - Has every possible loop been executed zero times, once, and more than once?
+   * Multiple condition coverage - This criterion requires that all combinations of conditions inside each decision are tested
 
 Sources
 - http://en.wikipedia.org/wiki/Code_coverage
