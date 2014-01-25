@@ -72,18 +72,31 @@ Code Coverage
    * Linear Code Sequence and Jump (LCSAJ) coverage - has every LCSAJ been executed?
    * JJ-Path coverage - have all jump to jump paths (aka LCSAJs) been executed?
    * Path coverage - Has every possible route through a given part of the code been executed?
+      * C0 = coverage of lines of code
+	   * C1 = coverage of branches
+	   * C2 = coverage of paths
+	   * C3 = coverage of every condition inside an ‘if’ is once true and once false
+	   * C4: Path-coverage = every possible path was taken, if(a) x else b; if(c) y requires 4 tests
+         * a true c true
+	      * a true c false
+	      * a false c true
+	      * a false c false
    * Entry/exit coverage - Has every possible call and return of the function been executed?
    * Loop coverage - Has every possible loop been executed zero times, once, and more than once?
    * Multiple condition coverage - This criterion requires that all combinations of conditions inside each decision are tested
+   * Data coverage - Measures how many of the instance and static non-final fields were fully exercised by the test run. To be fully exercised, a field must have the last value assigned to it read by at least one test.
+   * Line coverage - Tells us how much of the executable code in a source file has been exercised by tests. Each executable line of code can be uncovered, covered, or partially covered.
 
-Sources
-- http://en.wikipedia.org/wiki/Code_coverage
-- http://pjcj.net/testing_and_code_coverage/paper.html
-- http://xdebug.org/docs/code_coverage
-- http://stackoverflow.com/questions/195008/what-is-code-coverage-and-how-do-you-measure-it
-- http://testbench.in/TS_11_TYPES_OF_CODE_COVERAGE.html
-- http://www.atollic.com/index.php/trueanalyzer/types-of-code-coverage-analysis
-- http://grosser.it/2008/04/04/whats-my-coverage-c0-c1-c2-c3-path-coverage/
+* Sources
+   * http://en.wikipedia.org/wiki/Code_coverage
+   * http://pjcj.net/testing_and_code_coverage/paper.html
+   * http://xdebug.org/docs/code_coverage
+   * http://stackoverflow.com/questions/195008/what-is-code-coverage-and-how-do-you-measure-it
+   * http://testbench.in/TS_11_TYPES_OF_CODE_COVERAGE.html
+   * http://www.atollic.com/index.php/trueanalyzer/types-of-code-coverage-analysis
+   * http://grosser.it/2008/04/04/whats-my-coverage-c0-c1-c2-c3-path-coverage/
+   * http://jmockit.googlecode.com/svn/trunk/www/tutorial/CodeCoverage.html
+   * http://dev-logger.blogspot.com/2008/06/c0-c1-and-c2-coverage.html
 
 
 ### Demonstration (ArmSE)
