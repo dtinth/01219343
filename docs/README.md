@@ -56,10 +56,10 @@ Code Coverage
 ### Explanation (Nut)
 
 * What is code coverage
-- A way of ensuring that your tests are actually testing your code
-- A measurement of how many lines/blocks/arcs of your script (or set of scripts) are executed while the automated tests are running
+   * A way of ensuring that your tests are actually testing your code
+   * A measurement of how many lines/blocks/arcs of your script (or set of scripts) are executed while the automated tests are running
 * Why do we need code coverage
-- A program with high code coverage has been more thoroughly tested and has a lower chance of containing software bugs than a program with low code coverage
+   * A program with high code coverage has been more thoroughly tested and has a lower chance of containing software bugs than a program with low code coverage
 * Types of code coverage (C0, C1, C2, C3)
 1. Function coverage - Has each function (or subroutine) in the program been called?
 2. Statement coverage - Has each statement in the program been executed?
