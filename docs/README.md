@@ -133,8 +133,8 @@ Cyclomatic Complexity
 ### Calculation (Oak)
 
 * Code &rarr; Graph
-	*Fournum Code : https://www.dropbox.com/s/0gvs7e6acsu35wj/FourNum.cs
-	*Fournum graph : https://www.dropbox.com/s/g6p42rblycx5csl/final.jpg
+	* Fournum Code : https://www.dropbox.com/s/0gvs7e6acsu35wj/FourNum.cs
+	* Fournum graph : https://www.dropbox.com/s/g6p42rblycx5csl/final.jpg
 	*
 * Calculation of cyclomatic complexity
 	* REF: http://en.wikipedia.org/wiki/Cyclomatic_complexity
