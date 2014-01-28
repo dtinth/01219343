@@ -133,7 +133,26 @@ Cyclomatic Complexity
 ### Calculation (Oak)
 
 * Code &rarr; Graph
+	*Fournum Code : https://www.dropbox.com/s/0gvs7e6acsu35wj/FourNum.cs
+	*Fournum graph : https://www.dropbox.com/s/g6p42rblycx5csl/final.jpg
+	*
 * Calculation of cyclomatic complexity
+	* REF: http://en.wikipedia.org/wiki/Cyclomatic_complexity
+	* The cyclomatic complexity of a section of source code is the count of the number of linearly independent paths through the source code. For instance, if the source code contained no decision points such as IF statements or FOR loops, the complexity would be 1, since there is only a single path through the code. If the code had a single IF statement containing a single condition, there would be two paths through the code: one path where the IF statement is evaluated as TRUE and one path where the IF statement is evaluated as FALSE.
+Mathematically, the cyclomatic complexity of a structured program[note 1] is defined with reference to the control flow graph of the program, a directed graph containing the basic blocks of the program, with an edge between two basic blocks if control may pass from the first to the second. The complexity M is then defined as[2]
+M = E − N + 2P,
+where
+E = the number of edges of the graph,
+N = the number of nodes of the graph,
+P = the number of connected components (exit nodes).
+An alternative formulation is to use a graph in which each exit point is connected back to the entry point. In this case, the graph is said to be strongly connected, and the cyclomatic complexity of the program is equal to the cyclomatic number of its graph (also known as the first Betti number), which is defined as
+M = E − N + P.
+This may be seen as calculating the number of linearly independent cycles that exist in the graph, i.e. those cycles that do not contain other cycles within themselves. Note that because each exit point loops back to the entry point, there is at least one such cycle for each exit point.
+For a single program (or subroutine or method), P is always equal to 1. Cyclomatic complexity may, however, be applied to several such programs or subprograms at the same time (e.g., to all of the methods in a class), and in these cases P will be equal to the number of programs in question, as each subprogram will appear as a disconnected subset of the graph.
+It can be shown that the cyclomatic complexity of any structured program with only one entrance point and one exit point is equal to the number of decision points (i.e., "if" statements or conditional loops) contained in that program plus one.
+Cyclomatic complexity may be extended to a program with multiple exit points; in this case it is equal to:
+π − s + 2,
+where π is the number of decision points in the program, and s is the number of exit points.
 
 
 
