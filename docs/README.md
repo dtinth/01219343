@@ -99,8 +99,10 @@ Code Coverage
    * http://dev-logger.blogspot.com/2008/06/c0-c1-and-c2-coverage.html
 
 * Best practices about code coverage
-    * __Robert Martin__
-    * __DHH__
+    * __Robert Martin__ (Uncle Bob)
+        * > 100% test coverage is a natural side effect of proper development practices, and therefore a bare minimum indicator of quality. (quoted from [Deciphering Ruby Code Metrics](http://blog.codeclimate.com/blog/2013/08/07/deciphering-ruby-code-metrics/))
+    * __David Heinemeier Hansson__ (creator of Ruby on Rails)
+        * > Seven don’ts of testing: 1. Don’t aim for 100% coverage. [Testing like the TSA](http://37signals.com/svn/posts/3159-testing-like-the-tsa)
 
 
 ### Demonstration (ArmSE)
