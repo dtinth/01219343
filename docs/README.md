@@ -60,6 +60,10 @@ Code Coverage
 * Types of code coverage (C0, C1, C2, C3)
 
 
+* Best practices about code coverage
+    * __Robert Martin__
+    * __DHH__
+
 
 ### Demonstration (ArmSE)
 
@@ -75,12 +79,19 @@ Cyclomatic Complexity
 ### Definition (Thai)
 
 * Cyclomatic complexity is a software metric.
+    * Developed by Thomas J. McCabe, Sr. in 1976
 * It can be analyzed __statically__.
     * We do not need to run the code to measure the complexity.
 * Why do we need to measure Cyclomatic Complexity
+    * When a function is complex, it can be hard to maintain.
+    * Give an example: a maze
 * What does the number mean?
-* What is the standard number?
-* What to do when we have high cyclomatic complexity?
+    * Number of linearly independent path through program's source code
+* How to use these numbers?
+    * Thomas J. McCabe: programmers should count the complexity of the modules they are developing, and split them into smaller modules whenever the cyclomatic complexity of the module exceeded 10
+    * 10?
+    * "For each module, either limit cyclomatic complexity to [the agreed-upon limit] or provide a written explanation of why the limit was exceeded."
+    * Source: <http://en.wikipedia.org/wiki/Cyclomatic_complexity>
 
 
 
