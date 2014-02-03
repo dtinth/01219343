@@ -150,6 +150,8 @@ Cyclomatic Complexity
 	* Fournum graph : https://www.dropbox.com/s/g6p42rblycx5csl/final.jpg
 	* Fournum (Less complexity) Code : https://www.dropbox.com/s/si6eiqma892vqv5/FourNum2.cs
 * Calculation of cyclomatic complexity
+	* http://www.whiteboxtest.com/cyclomatic-complexity.php
+		* อีกวิธีที่ใช้ในการคำนวณ ง่ายกว่าแบบแรก ใช้การตัดสินใจจาก operation ต่างๆ 
 	* REF: http://en.wikipedia.org/wiki/Cyclomatic_complexity
 	* The cyclomatic complexity of a section of source code is the count of the number of linearly independent paths through the source code. For instance, if the source code contained no decision points such as IF statements or FOR loops, the complexity would be 1, since there is only a single path through the code. If the code had a single IF statement containing a single condition, there would be two paths through the code: one path where the IF statement is evaluated as TRUE and one path where the IF statement is evaluated as FALSE.
 Mathematically, the cyclomatic complexity of a structured program[note 1] is defined with reference to the control flow graph of the program, a directed graph containing the basic blocks of the program, with an edge between two basic blocks if control may pass from the first to the second. The complexity M is then defined as[2]
